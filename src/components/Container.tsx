@@ -56,39 +56,31 @@ const Container = () => {
 
         <table className="w-full">
           <tr className="border-b-[1px] text-left">
-            <div className="flex justify-between w-2/3 pl-5 pb-2">
-              <th className="font-normal">Calories</th>
-              <td className="text-rose-800 font-bold">
-                <div className="w-14">277kcal</div>
-              </td>
-            </div>
+            <th className="font-normal pl-5">Calories</th>
+            <td className="text-rose-800 font-bold">
+              <div className="w-14 p-2">277kcal</div>
+            </td>
           </tr>
 
           <tr className="border-b-[1px] text-left">
-            <div className="flex justify-between w-2/3 pl-5 pb-2 mt-2">
-              <th className="font-normal">Carbs</th>
-              <td className="text-rose-800 font-bold">
-                <div className="w-14">0g</div>
-              </td>
-            </div>
+            <th className="font-normal pl-5">Carbs</th>
+            <td className="text-rose-800 font-bold">
+              <div className="w-14 p-2">0g</div>
+            </td>
           </tr>
 
           <tr className="border-b-[1px] text-left">
-            <div className="flex justify-between w-2/3 pl-5 pb-2 mt-2">
-              <th className="font-normal">Protein</th>
-              <td className="text-rose-800 font-bold">
-                <div className="w-14">20g</div>
-              </td>
-            </div>
+            <th className="font-normal pl-5">Protein</th>
+            <td className="text-rose-800 font-bold">
+              <div className="w-14 p-2">20g</div>
+            </td>
           </tr>
 
           <tr className="text-left">
-            <div className="flex justify-between w-2/3 pl-5 pb-2 mt-2">
-              <th className="font-normal">Fat</th>
-              <td className="text-rose-800 font-bold">
-                <div className="w-14">22g</div>
-              </td>
-            </div>
+            <th className="font-normal pl-5">Fat</th>
+            <td className="text-rose-800 font-bold">
+              <div className="w-14 p-2">22g</div>
+            </td>
           </tr>
         </table>
       </div>
